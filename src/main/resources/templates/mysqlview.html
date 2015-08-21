@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>mysqlview test</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p>data exhibition: </p>
+ 
+    <p th:text="${results}" />
+ 
+<hr />
+ 
+<p>add data:</p> 
+<form method="POST" action="/post">
+	name:		 <input type="text" name="name" /><br />
+	description: <input type="text" name="description" /><br />
+	<input type="submit" value="write" />
+</form>
+ 
+</body>
+</html>

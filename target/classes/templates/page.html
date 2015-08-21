@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <p th:text="'Hello, ' + ${name} + '!'" /><br />
+    <a href="/">home</a><br />
+    <a href="/page?name=PageController">uses Thymeleaf html engine (this)</a><br />
+    <a href="/greeting?name=GreetingController">get json</a><br />
+    <a href="/modelandview">Model And View (redirect with var)</a><br />
+    <a href="/forward">FowardMethod: forward method (to greeting)</a><br />
+    <a href="/redirect">Redirect: redirect (to https://google.com)</a><br />
+    <a href="/mysqlview">use mysql jdbc</a><br />
+</body>
+</html>

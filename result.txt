@@ -1,0 +1,6 @@
+:clean
+:compileJava
+
+BUILD FAILED
+
+Total time: 7.902 secs
